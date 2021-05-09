@@ -17,7 +17,7 @@ exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, targetingDist
 hash                = Ped Model Hash
 coords              = vector3 coordinates
 events              = bt-target options 
-jobs                = list of jobs in a table
+jobs                = list of jobs in a table , {"all"} for everyone
 targetingDistance   = bt-target distance
 animDict            = Animation dictionary
 anim                = Animation
