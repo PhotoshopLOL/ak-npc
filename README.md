@@ -10,4 +10,17 @@
 
 ## Usage
 
-* WIP
+```lua
+exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, anim)
+
+```
+this returns the ped handle so you could do:
+
+
+```lua
+local NPC = exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, anim)
+
+TaskPlayAnim(NPC, ......)
+--and whatever you want to do with the ped
+
+```
