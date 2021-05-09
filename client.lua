@@ -40,6 +40,7 @@ function BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, a
     SetBlockingOfNonTemporaryEvents(npcped, true)
     TaskPlayAnim(npcped, dict, animation, 8.0, 0.0, -1, 1, 0, 0, 0, 0)
 
+    return npcped
 end
 
 exports('BuildNPC', BuildNPC)
