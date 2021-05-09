@@ -18,7 +18,18 @@ this returns the ped handle so you could do:
 
 
 ```lua
-local NPC = exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, anim)
+local NPC = exports['akina-npc']:BuildNPC(1466037421, vector3(0.0, 0.0, 0.0), 23.2, {
+    {
+      event = "mrpd:OpenGarage"
+      icon = "fas fa-car"
+      label = "Open MRPD Garage"
+    },
+    {
+      event = "mrpd:OpenImpound"
+      icon = "fas fa-car"
+      label = "Open MRPD Impound"
+    },
+}, {"police","ambulance"}, 2.0, 'anim@amb@clubhouse@bar@drink@idle_a', 'idle_a_bartender')
 
 TaskPlayAnim(NPC, ......)
 --and whatever you want to do with the ped
