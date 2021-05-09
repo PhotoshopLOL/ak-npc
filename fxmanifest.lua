@@ -11,6 +11,6 @@ dependencies {
 } 
 
 client_scripts {
-    "client.lua"
+    "client.lua",
     "config.lua"
 }

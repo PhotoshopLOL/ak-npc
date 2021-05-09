@@ -42,4 +42,4 @@ function BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, a
 
 end
 
-exports('BuildNPC'), BuildNPC)
+exports('BuildNPC', BuildNPC)
