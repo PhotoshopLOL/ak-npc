@@ -1,6 +1,6 @@
 
 <h1 align='center'>Akina NPC</h1>
-<p align='center'>ak-npc is a FiveM resource that adds interactable NPCs to the world</p>
+<p align='center'>akina-npc is a FiveM resource that adds interactable NPCs to the world</p>
 
 
 ## Dependencies
