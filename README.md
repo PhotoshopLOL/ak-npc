@@ -11,9 +11,18 @@
 ## Usage
 
 ```lua
-exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, anim)
-
+exports['akina-npc']:BuildNPC(hash, coords, heading, events, jobs, targetingDistance, animDict, anim)
 ```
+```
+hash                = Ped Model Hash
+coords              = vector3 coordinates
+events              = bt-target options 
+jobs                = list of jobs in a table
+targetingDistance   = bt-target distance
+animDict            = Animation dictionary
+anim                = Animation
+```
+
 this returns the ped handle so you could do:
 
 
