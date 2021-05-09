@@ -32,7 +32,7 @@ function BuildNPC(hash, coords, heading, events, jobs, drawDistance, animDict, a
         Wait(1)
     end
 
-    local npcped =  CreatePed(4, hash, coords, heading, false, true)
+    local npcped =  CreatePed(4, hash, coords.x, coords.y, coords.z-1, heading, false, true)
 
     SetEntityHeading(npcped, heading)
     FreezeEntityPosition(npcped, true)
